@@ -1,5 +1,4 @@
-
-async function fetchData(url, method, par=false, token=null) {
+export default async function fetchData(url, method, par=false, token=null) {
   let headers = new Headers();
   headers.append('Content-Type', 'application/json; charset=utf-8');
   headers.append('Accept', 'application/json');
@@ -16,8 +15,6 @@ async function fetchData(url, method, par=false, token=null) {
         headers: headers
       }).then(res => res.json())
   } catch (error) {
-    console.log(`ERROR: ${error.stack}`);
+    console.log(`ERROR: ${error}`);
   }
 }
-
-export { fetchData }

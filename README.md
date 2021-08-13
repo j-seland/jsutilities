@@ -9,8 +9,9 @@ Feel free to modify and use the code as you wish.
 
 ### SRC, source
 
-- fetchutility.js a simple fetchwrapper
-
+- elementfactory.js a simple element generator
+- fetchutility.js a simple fetch-wrapper
+- utilities.js contains different utility functions
 ---
 
 ## Getting started
