@@ -2,7 +2,7 @@ export default async function fetchData(url, method, par=false, token=null) {
   let headers = new Headers();
   headers.append('Content-Type', 'application/json; charset=utf-8');
   headers.append('Accept', 'application/json');
-  headers.append('Authorization', `Bearer ${token}`);
+  if (token) headers.append('Authorization', `Bearer ${token}`);
   try {
     return (par)
     ? await fetch(url, {
