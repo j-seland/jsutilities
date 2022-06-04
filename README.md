@@ -1,9 +1,9 @@
 # JSutilities
 ---
 
-JSutilities contains different JavaScript snippets and functions.
+JSutilities contains JavaScript snippets and functions.
 
-Feel free to modify and use the code as you wish.
+Modify and use the code as you wish.
 
 ---
 
@@ -11,7 +11,7 @@ Feel free to modify and use the code as you wish.
 
 - elementfactory.js a simple element generator
 - fetchutility.js a simple fetch-wrapper
-- utilities.js contains different utility functions
+- utilities.js contains utility functions
 ---
 
 ## Getting started

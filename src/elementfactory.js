@@ -1,4 +1,4 @@
-export default const elf = (type, attrs={}) => {
+export default function elf(type, attrs={}) {
   let el = document.createElement(type);
   for (let attr in attrs) {
     let value = attrs[attr];
